@@ -8,31 +8,35 @@ const Footer: React.FC = () => {
         {/* Section 1: Home Solutions (4 Divs in a Single Row) */}
         <div className="grid grid-cols-1 md:grid-cols-4 gap-4 mb-8 items-start">
           <div className="mb-8 md:mb-0">
-            <h3 className="text-lg font-bold">Home Solutions</h3>
+            <h3 className="text-lg font-bold">SaaS Solutions</h3>
             <ul className="mt-2">
-              <li>Kaspersky Standard</li>
+              <li className='hover:text-highlight'>Sky Affiliate</li>
+              <li className='hover:text-highlight'>Sky Ecommerce</li>
+              <li className='hover:text-highlight'>Sky ERP</li>
               {/* Add other products here */}
             </ul>
           </div>
           <div className="mb-8 md:mb-0">
-            <h3 className="text-lg font-bold">Home Solutions</h3>
+            <h3 className="text-lg font-bold">AI & Analytics</h3>
             <ul className="mt-2">
-              <li>Kaspersky Plus</li>
+              <li className='hover:text-highlight'>Sky Chatbot</li>
               {/* Add other products here */}
             </ul>
           </div>
           <div className="mb-8 md:mb-0">
-            <h3 className="text-lg font-bold">Home Solutions</h3>
+            <h3 className="text-lg font-bold">Development services</h3>
             <ul className="mt-2">
-              <li>Kaspersky Premium</li>
+              <li className='hover:text-highlight'>Website development</li>
+              <li className='hover:text-highlight'>App development</li>
+              <li className='hover:text-highlight'>Custom softwares</li>
               {/* Add other products here */}
             </ul>
           </div>
           <div className="mb-8 md:mb-0">
-            <h3 className="text-lg font-bold">Enterprise Solutions</h3>
+            <h3 className="text-lg font-bold">Consultancy Services</h3>
             <ul className="mt-2">
-              <li>Sky ERP</li>
-              <li>Sky Ecommerce</li>
+              <li className='hover:text-highlight'>AI Adoption Consultancy</li>
+              <li className='hover:text-highlight'>Cloud Migration Consultancy</li>
 
               {/* Add other products here */}
             </ul>

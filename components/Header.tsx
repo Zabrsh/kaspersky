@@ -21,16 +21,16 @@ const Header = () => {
         </div>
         <ul className="flex space-x-8">
           <li>
-            <Link href="/" legacyBehavior><a className="text-text text-lg">Home</a></Link>
+            <Link href="/" legacyBehavior><a className="text-text text-lg hover:text-highlight">Home</a></Link>
           </li>
           <li>
-            <Link href="/business" legacyBehavior><a className="text-text text-lg">Business</a></Link>
+            <Link href="/business" legacyBehavior><a className="text-text text-lg hover:text-highlight">Business</a></Link>
           </li>
           <li>
-            <Link href="/partners" legacyBehavior><a className="text-text text-lg">Partners</a></Link>
+            <Link href="/partners" legacyBehavior><a className="text-text text-lg hover:text-highlight">Partners</a></Link>
           </li>
           <li>
-            <Link href="/about" legacyBehavior><a className="text-text text-lg">About</a></Link>
+            <Link href="/about" legacyBehavior><a className="text-text text-lg hover:text-highlight">About</a></Link>
           </li>
         </ul>
         <div className="flex items-center space-x-8">
